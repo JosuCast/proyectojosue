@@ -22,6 +22,7 @@ $asunto = 'message de mi web';
 
 if(mail($para,$asunto,utf8_decode($message),$header))
 echo "<script type='text/javascript'>alert('Tu message ha sido enviado exitosamente');</script>";
+echo "<script type='text/javascript'>window.location.href='https://proyectojosue1.herokuapp.com';</script>";
 
 
  ?>
