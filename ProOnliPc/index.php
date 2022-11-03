@@ -454,7 +454,7 @@
           <div class="form">
             <div id="sendmessage">Your message has been sent. Thank you!</div>
             <div id="errormessage"></div>
-            <form action="../contactform/contactform.php" method="post" role="form" class="contactForm">
+            <form action="contactform.php" method="post" role="form" class="contactForm">
               <div class="form-group">
                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Por favor ingrese al menos 4 caracteres" />
                 <div class="validation"></div>
